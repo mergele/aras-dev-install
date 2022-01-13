@@ -2,17 +2,25 @@
 
 Notes on preparing my machine for local aras install, following the Article [Configuring Your Development Machine for Aras Innovator, by Eli Donahue](https://community.aras.com/b/english/posts/configuring-your-development-machine-for-aras-innovator) and asking a lot questions to my colleagues :-D.
 
-Questionmarks where I still have questions :-).
+Questionmarks where I still have questions :-). Feel free to contribute!
 
 Only the checked boxes are needed for a following seemless installation of aras innovator R12SP18.
-
-Feel free to contribute!
 
 ## Reference Platforms 
 Machines / Environments I tested with...
 
 ### MINB01 
 (Lenovo T460s)
+```
+Gerätename           MINB01
+Prozessor            Intel(R) Core(TM) i7-6600U CPU @ 2.60GHz   2.81 GHz
+Installierter RAM    20,0 GB (19,9 GB verwendbar)
+
+Edition              Windows 10 Pro
+Version              21H2
+Betriebssystembuild  19044.1466
+Leistung             Windows Feature Experience Pack 120.2212.3920.0
+```
 
 ### IN-443 
 (Microsoft Surface Pro 7)
@@ -96,7 +104,7 @@ Enable following features [Windows-Features aktivieren oder deaktivieren (inside
 - [x] WWW-Dienste (complete) 
 - [x] check if IIS is up and running by calling [http://localhost/](http://localhost/)
 
-funfact: in the `winget list` output, the only change is an update of the winget packet manager itself :-D. No chance to track feature-changes this way? [dev01-winget-list-009](dev01-winget-list-009.txt)
+In the `winget list` output, the only change is an update of the winget packet manager itself :-D. No chance to track feature-changes this way? Comments how to document that welcome! [dev01-winget-list-009](dev01-winget-list-009.txt)
 
 ### SQL Server Management Studio (SSMS)
 [SQL Server Management Studio (SSMS)](https://docs.microsoft.com/de-de/sql/ssms/sql-server-management-studio-ssms?view=sql-server-ver15), [Direct Download Link](https://aka.ms/ssmsfullsetup)
@@ -122,7 +130,6 @@ funfact: in the `winget list` output, the only change is an update of the winget
 - [x] check if sql-server is up and running by connecting to database (use ssms, sa user with sql server authentication)
 - [x] check if aras-innovator R12SP18 installation works out of the box
 
-
 # Credits
-to Eli Donahue for his work [Configuring Your Development Machine for Aras Innovator](https://community.aras.com/b/english/posts/configuring-your-development-machine-for-aras-innovator)
-- to my Colleagues Clemens & Sri
+- Eli Donahue for his work [Configuring Your Development Machine for Aras Innovator](https://community.aras.com/b/english/posts/configuring-your-development-machine-for-aras-innovator)
+- My Colleagues Clemens & Srivardhan
