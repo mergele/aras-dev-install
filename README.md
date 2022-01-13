@@ -52,15 +52,11 @@ Leistung             Windows Feature Experience Pack 120.2212.3920.0
 install the production version as app from the appstore
 https://docs.microsoft.com/de-de/windows/package-manager/winget/
 
-use
-```
-winget list
-```
-to check for installes libraries
+use `winget list ` to check for installed libraries and see which dependencies are installed in each step. 
 
-I use `winget list > HOSTNAME-winget-list-###.txt` do document progress, usefull for debugging.
+I use `winget list > HOSTNAME-winget-list-###.txt` do document progress during the reference-install run in DEV01.
 
-### Frameworks, Libs, ...
+### .NET Framework 3.5 / .NET Framework 4.8
 Ausgangszustand [dev01-winget-list](dev01-winget-list-001.txt)
 
 Enable following features [Windows-Features aktivieren oder deaktivieren (inside Systemsteuerung)](windows-features-dotnet.png)
