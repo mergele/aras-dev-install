@@ -2,7 +2,11 @@
 
 Notes on preparing my machine for local aras install, following the Article [Configuring Your Development Machine for Aras Innovator, by Eli Donahue](https://community.aras.com/b/english/posts/configuring-your-development-machine-for-aras-innovator) and asking a lot questions to my colleagues :-D.
 
-questionmarks where I still have questions :-).
+Questionmarks where I still have questions :-).
+
+Only the checked boxes are needed for a following seemless installation of aras innovator R12SP18.
+
+Feel free to contribute!
 
 ## Reference Platforms 
 Machines / Environments I tested with...
