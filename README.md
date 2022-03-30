@@ -34,6 +34,18 @@ Betriebssystembuild  19044.1415
 Leistung             Windows Feature Experience Pack 120.2212.3920.0
 ```
 
+### IN-447
+(Microsoft Surface Pro 7)
+```
+Gerätename           IN-443
+Prozessor            Intel(R) Core(TM) i7-1065G7 CPU @ 1.30GHz   1.50 GHz
+Installierter RAM    16,0 GB (15,6 GB verwendbar)
+Edition:             Windows 10 enterprise
+Version              21H2
+Betriebssystembuild  19044.1415
+Leistung             Windows Feature Experience Pack 120.2212.3920.0
+```
+
 ### DEV01 
 (hyperv virtual machine on IN-443)
 ```
